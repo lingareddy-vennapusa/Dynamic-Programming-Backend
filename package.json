@@ -1,16 +1,13 @@
 {
-  "name": "server",
+  "name": "coding-platform-backend",
   "version": "1.0.0",
-  "description": "",
-  "main": "AssesmentModel.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "description": "Backend for Coding Assessment Platform",
+  "main": "server.js",
   "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
   "dependencies": {
     "axios": "^1.13.2",
     "bcryptjs": "^3.0.3",
